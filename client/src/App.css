@@ -1,0 +1,42 @@
+/* User.css */
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userTable {
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+
+.userTable th{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 20px;
+  background-color: #3559E0;
+  color: white;
+  font-size: 18px;
+}
+
+.userTable td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+}
+.userTable tr:nth-child(odd) {
+  background-color: #f9f9f9; 
+}
+
+.userTable tr:nth-child(even) {
+  background-color: #e6e6e6; 
+}
+
+
+
+
+.tableBody{
+  text-align: center;
+}
